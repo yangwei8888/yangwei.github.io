@@ -1,0 +1,32 @@
+# Dependencies
+markdown:            redcarpet
+highlighter:         pygments
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           /:year/:month/:day/:title
+relative_permalinks: true
+
+# Setup
+title:               CoderZh 
+tagline:             '一个程序员的思考与总结'
+description:         '如果你没有感觉到时间不够用时，你多半正在虚度光阴。'
+url:                 http://blog.coderzh.com
+baseurl:             /
+paginate:            5
+
+# About/contact
+author:
+  name:              CoderZh
+  url:               https://twitter.com/coderzh
+  email:             pythonzh@gmail.com
+
+comments :
+   provider : duoshuo
+   duoshuo : 
+   shortname : coderzh
+
+# Custom vars
+version:             1.0.0
+excerpt_separator:   '<!-- more -->'
